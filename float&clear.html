@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap"
+        rel="stylesheet">
+    <style>
+        * {}
+
+        .container {
+            width: 900px;
+            border: 2px solid plum;
+            margin: 50px auto;
+            /* gives margin y-axis and x-axis*/
+            background-color: antiquewhite;
+        }
+
+        body {
+            font-family: "Playwrite NG Modern", cursive;
+        }
+
+        .item {
+            border: 3px solid black;
+            margin: 12px 3px;
+            /* top right bottom left  same for padding*/
+            padding: 12px 3px;
+            /* here its diff its for y-axis and x-axis*/
+            background: rgba(255, 0, 0, 0.217);
+        }
+
+        #fruit {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+        }
+
+        #stationary {
+            clear: both;
+            width: 98%
+        }
+
+        #p,h3{
+            text-align: justify;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="margin:23px auto; width:455px;">Welcome to my paragraphs</h1>
+        <div id="fruit" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum fugiat amet
+                ipsum iure tempore, nemo expedita et consequatur, commodi odit omnis, atque hic.</p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum fugiat
+                amet ipsum iure tempore, nemo expedita et consequatur, commodi odit omnis, atque hic.</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum fugiat
+                amet ipsum iure tempore, nemo expedita et consequatur, commodi odit omnis, atque hic.</p>
+        </div>
+    </div>
+</body>
+
+</html>
